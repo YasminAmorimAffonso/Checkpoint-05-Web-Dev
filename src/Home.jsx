@@ -82,7 +82,7 @@ function Home() {
 
           <div id='sec1-home' className='flex flex-row justify-around items-center h-[550px]'>
 
-            <img src="/public/assets/imgs/vetorCelular.svg" alt="" className='w-[150px]' />
+            <img src="/assets/imgs/vetorCelular.svg" alt="" className='w-[150px]' />
 
             <div className='w-1/2 flex flex-col justify-right items-center mr-[15px] mt-[10px]'>
 
