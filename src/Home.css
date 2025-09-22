@@ -1,0 +1,296 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+#body-home {
+
+    h3 {
+
+        color: #DD6532;
+
+        font-family: "poppins";
+
+    }
+
+    p {
+
+        color: #3E3C3D;
+
+        font-family: "inter";
+
+    }
+
+    h4 {
+
+        color: #522258;
+
+    }
+
+    h5 {
+
+        color: #F8EBD1;
+
+        font-family: "inter";
+        font-size: 20px;
+
+    }
+
+    label {
+
+        color: #F8EBD1;
+
+        font-family: "poppins";
+
+    }
+
+    input::placeholder {
+
+        font-family: "inter";
+
+        color: #3E3C3D40;
+
+    }
+
+
+}
+
+
+#aVoz-home {
+
+    p {
+
+        color: #F8EBD1;
+
+        font-family: "inter";
+
+        font-size: 15px;
+
+        width: 145px;
+
+    }
+
+}
+
+
+#sec1-home {
+
+
+    background-image: url("../public/assets/imgs/fundoSecUm.svg");
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: 525px;
+
+    h1 {
+
+        color: #F8EBD1;
+
+    }
+
+    p {
+
+        color: #F8EBD1;
+
+    }
+
+    button {
+
+        color: #F8EBD1;
+
+        font-size: 20px;
+
+
+    }
+
+
+}
+
+
+#forms {
+
+    background-image: url("../public/assets/imgs/fundoSecUlt.svg");
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+
+
+    button {
+
+        color: #522258;
+
+        font-family: "poppins";
+        font-weight: 800;
+
+    }
+
+}
+
+
+
+@media (min-width: 850px) {
+
+    #sec1-home {
+
+        padding-top: 450px;
+
+        background-size: 1250px;
+
+        padding-left: 100px;
+
+        img {
+
+            width: 300px;
+
+
+            margin-top: -400px;
+
+        }
+
+        h1 {
+
+            font-size: 30px;
+
+            width: 500px;
+
+            margin-bottom: 75px;
+            margin-top: 75px;
+
+        }
+
+        p {
+
+            font-size: 20px;
+
+            width: 650px;
+
+            margin-right: 150px;
+            margin-bottom: 75px;
+
+        }
+
+        button {
+
+            width: 300px;
+
+            height: 75px;
+
+        }
+
+    }
+
+    #exp-home {
+
+        margin-left: 150px;
+
+    }
+
+    #saborIdeal-home {
+
+        margin-left: 200px;
+
+        h4 {
+
+            margin-left: -175px;
+
+        }
+
+    }
+
+
+    #cardsVoz-home {
+
+        flex-direction: row;
+        justify-content: space-around;
+
+
+        width: 80%;
+
+        height: 100%;
+
+        padding: 50px;
+
+        div {
+
+            width: 200px;
+
+        }
+
+    }
+
+
+    #ultSec-home {
+
+
+        margin-left: 150px;
+
+
+    }
+
+
+    #forms {
+
+        width: 100%;
+
+        background-image: url("../public/assets/imgs/fundoSecUlt.svg");
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+        background-size: 1250px;
+
+
+        button {
+
+            color: #522258;
+
+            font-family: "poppins";
+            font-weight: 800;
+
+            margin: 50px;
+
+        }
+
+        #linha1 {
+
+            display: flex;
+
+            flex-direction: row;
+
+            justify-content: space-evenly;
+
+            width: 100%;
+
+        }
+
+        #linha2 {
+
+            display: flex;
+
+            flex-direction: row;
+
+            justify-content: space-evenly;
+
+            width: 100%;
+
+        }
+
+    }
+
+
+
+}

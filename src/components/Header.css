@@ -1,0 +1,44 @@
+
+
+
+
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+#bg-header {
+
+    background-color: #F8EBD1;
+
+    transition: 0.3s;
+
+}
+
+#bgCor-header {
+
+    background-color: #CE6826;
+
+    transition: 0.3s;
+
+}
+
+
+@media (min-width: 850px) {
+
+    #bg-header {
+
+        margin-left: 115px;
+
+    }
+
+    #bgCor-header {
+
+        margin-left: 115px;
+
+    }
+    
+}

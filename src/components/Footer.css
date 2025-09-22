@@ -1,0 +1,28 @@
+
+
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+#button-footer {
+
+    color: #F8EBD1;
+
+}
+
+#bg-footer {
+
+    background-image: 
+
+    linear-gradient(#CE6826D9),
+    
+    url("/public/assets/imgs/padraozao.png");
+
+    background-size: 250px;
+
+
+}
